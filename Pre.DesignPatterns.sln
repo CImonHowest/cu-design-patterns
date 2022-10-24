@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pre.DesignPatterns.Cons", "Pre.DesignPatterns.Cons\Pre.DesignPatterns.Cons.csproj", "{3F8297BB-32B3-45D3-8F55-6A00BDB7007B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pre.DesignPatterns.Core", "Pre.DesignPatterns.Core\Pre.DesignPatterns.Core.csproj", "{ECD62940-8082-47F2-98AD-39D07A2AE3BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F8297BB-32B3-45D3-8F55-6A00BDB7007B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F8297BB-32B3-45D3-8F55-6A00BDB7007B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F8297BB-32B3-45D3-8F55-6A00BDB7007B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F8297BB-32B3-45D3-8F55-6A00BDB7007B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECD62940-8082-47F2-98AD-39D07A2AE3BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECD62940-8082-47F2-98AD-39D07A2AE3BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECD62940-8082-47F2-98AD-39D07A2AE3BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECD62940-8082-47F2-98AD-39D07A2AE3BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
