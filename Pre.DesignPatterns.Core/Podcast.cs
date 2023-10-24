@@ -14,6 +14,7 @@ public class Podcast : ISubject
     {
         Title = title;
         _subscribers = new List<ISubscriber>(subscribers);
+        _episodes= new List<Episode>();
     }
 
     public void AddSubscriber(ISubscriber subscriber)

@@ -6,7 +6,7 @@ public class Person: ISubscriber
 
     private void SendMessage(Episode episode)
     {
-        Console.WriteLine($"A new episode was added: {episode.Name}");
+        Console.WriteLine($"A new episode was added for {Name}: {episode.Name}");
     }
 
     public void Update(ISubject sender, Episode episdoe)
