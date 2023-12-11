@@ -6,9 +6,14 @@ using System.Threading.Tasks;
 
 namespace Pre.DesignPatterns.Core
 {
-    public class Person
+    public class Person : ISubscriber
     {
         public string Name { get; set; }
+
+        public void Update(ISubject subject, Episode episode)
+        {
+            SendMessage(episode);
+        }
 
         private void SendMessage(Episode episode)
         {
